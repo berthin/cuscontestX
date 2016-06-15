@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JUN 2016 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JUN 2016 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,6 +834,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
 \c@thm=\count135
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
@@ -879,17 +882,13 @@ Package: csvsimple 2012/11/08 version 1.06 LaTeX CSV file processing
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
 \pgfkeys@tmptoks=\toks40
-))) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
+)))
 \csv@file=\read1
 \c@csvinputline=\count142
 \c@csvrow=\count143
 \c@csvcol=\count144
-)
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
-
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count145
@@ -1197,36 +1196,39 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 (/usr/local/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
-))) (./main.aux
+))) (./CusContestMacros.sty
+Package: CusContestMacros 2016/06/15 v1.0
+\File=\read3
+) (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 146.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 150.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 150.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
-LaTeX Font Info:    ... okay on input line 146.
-LaTeX Info: Redefining \. on input line 146.
-LaTeX Info: Redefining \% on input line 146.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
+LaTeX Font Info:    ... okay on input line 150.
+LaTeX Info: Redefining \. on input line 150.
+LaTeX Info: Redefining \% on input line 150.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1308,8 +1310,8 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box49
-Package backref Info: ** backref set up for natbib ** on input line 146.
-Package hyperref Info: Link coloring ON on input line 146.
+Package backref Info: ** backref set up for natbib ** on input line 150.
+Package hyperref Info: Link coloring ON on input line 150.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1318,9 +1320,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count175
 )
-LaTeX Info: Redefining \ref on input line 146.
-LaTeX Info: Redefining \pageref on input line 146.
-LaTeX Info: Redefining \nameref on input line 146.
+LaTeX Info: Redefining \ref on input line 150.
+LaTeX Info: Redefining \pageref on input line 150.
+LaTeX Info: Redefining \nameref on input line 150.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1331,64 +1333,64 @@ LaTeX Info: Redefining \nameref on input line 146.
 File: images/UNSAAC-logo.png Graphic file (type png)
 
 <use images/UNSAAC-logo.png>
-Package pdftex.def Info: images/UNSAAC-logo.png used on input line 155.
+Package pdftex.def Info: images/UNSAAC-logo.png used on input line 162.
 (pdftex.def)             Requested size: 131.53241pt x 138.1813pt.
 
 <images/acm-chapter.jpg, id=9, 442.65375pt x 392.46625pt>
 File: images/acm-chapter.jpg Graphic file (type jpg)
 
 <use images/acm-chapter.jpg>
-Package pdftex.def Info: images/acm-chapter.jpg used on input line 157.
+Package pdftex.def Info: images/acm-chapter.jpg used on input line 164.
 (pdftex.def)             Requested size: 132.79713pt x 117.74077pt.
 
-Overfull \hbox (0.2843pt too wide) in paragraph at lines 182--182
+Overfull \hbox (0.2843pt too wide) in paragraph at lines 189--189
  [][] 
  []
 
 
-Overfull \hbox (0.2843pt too wide) in paragraph at lines 188--190
+Overfull \hbox (0.2843pt too wide) in paragraph at lines 195--197
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--208
+Underfull \hbox (badness 10000) in paragraph at lines 205--215
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--208
+Underfull \hbox (badness 10000) in paragraph at lines 205--215
 
  []
 
 
-Overfull \hbox (43.73405pt too wide) in paragraph at lines 193--209
+Overfull \hbox (43.73405pt too wide) in paragraph at lines 200--216
 []$[]$   $[]$ 
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 218.
+(babel)             in language  on input line 225.
 [1
 
 
@@ -1397,66 +1399,66 @@ Package babel Info: Redefining spanish shorthand "?
 s/UNSAAC-logo.png> <./images/acm-chapter.jpg>]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 219.
+(Font)              using `OT1/cmr/bx/n' instead on input line 226.
 
 
-Package caption Warning: Unused \captionsetup[figure] on input line 166.
+Package caption Warning: Unused \captionsetup[figure] on input line 173.
 See the caption package documentation for explanation.
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 250.
+(babel)             in language  on input line 257.
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 250.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 250.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 250.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 250.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 250.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 23550 strings out of 493089
- 412231 string characters out of 6134842
- 507321 words of memory out of 5000000
- 26586 multiletter control sequences out of 15000+600000
+ 23566 strings out of 493089
+ 412533 string characters out of 6134842
+ 507441 words of memory out of 5000000
+ 26597 multiletter control sequences out of 15000+600000
  12756 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 54i,11n,54p,401b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,11n,54p,414b,576s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (2 pages, 1182621 bytes).
+Output written on main.pdf (2 pages, 1182350 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

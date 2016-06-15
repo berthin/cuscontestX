@@ -1,0 +1,24 @@
+\ProvidesPackage{CusContestMacros}[2016/06/15 v1.0]
+
+\newread\File
+\newcommand{\CusContestDateDay}{}
+\newcommand{\CusContestDateMonth}{}
+\newcommand{\CusContestDateYear}{}
+\newcommand{\CusContestEditionGreekNumber}{}
+\newcommand{\CusContestNumberPages}{}
+\newcommand{\CusContestNumberProblems}{}
+
+\newcommand{\ReadVariables}[1]
+{
+  \openin\File=#1
+  \read\File to \CusContestDateDay
+  \read\File to \CusContestDateMonth
+  \read\File to \CusContestDateYear
+  \read\File to \CusContestEditionGreekNumber
+  \read\File to \CusContestNumberPages
+  \read\File to \CusContestNumberProblems
+  \closein\File
+}
+
+
+

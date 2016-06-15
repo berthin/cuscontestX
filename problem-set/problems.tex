@@ -10,18 +10,21 @@
 \usepackage{wrapfig}
 \usepackage{xcolor}
 \usepackage[utf8]{inputenc}
+\usepackage{CusContestMacros}
 
 \newcommand{\CUSCONTEST}{CusContest }
 \addto\captionsenglish{\renewcommand{\figurename}{Figura.}}
 %\usepackage[font=small,textfont=it]{caption}
 \captionsetup[figure]{font=small, labelfont=it, textfont={it}}
 
-\renewcommand{\contestname}{
-X CusContest\\
-Cusco, Julio YY, 2016
-}
 
 \begin{document}
+
+\ReadVariables{CusContestVariablesLatex.in}
+\renewcommand{\contestname}{
+\CusContestEditionGreekNumber CusContest\\
+Cusco, \CusContestDateMonth \CusContestDateDay, \CusContestDateYear
+}
 
 \input problems/BFS.tex
 \input problems/IP.tex

@@ -36,6 +36,7 @@
 \usepackage{amsthm}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{ifthen}
 %\theoremstyle{plain}
 %Teoremas, definiciones y ejemplos
 \newtheorem{thm}{Teorema}[section] % reset theorem numbering for each chapter
@@ -140,10 +141,16 @@ emph = {[2]Find}, emphstyle = {[2]\color{purple}}
 }
 \renewcommand*\lstlistingname{Algoritmo}
 \usepackage{tikz}
+\usepackage{CusContestMacros}
+% ---------------------------------------------------------------------------- %
+% MACRO TO READ globalVariables
 % ---------------------------------------------------------------------------- %
 % Corpo do texto
 \parindent=2.5em
 \begin{document}
+
+\ReadVariables{CusContestVariablesLatex.in}
+
 \frontmatter
 % ---------------------------------------------------------------------------- %
 % CAPA
@@ -178,7 +185,7 @@ emph = {[2]Find}, emphstyle = {[2]\color{purple}}
 }
 \vspace*{-0.6in}
 \textbf{Concurso de Programación}\\
-\textbf{VIII CusContest}\\
+\textbf{\CusContestEditionGreekNumber CusContest}\\
 \vspace*{0.8in} \topline
 \vspace*{0.1in}
 \begin{large}
@@ -195,7 +202,7 @@ emph = {[2]Find}, emphstyle = {[2]\color{purple}}
 \hspace{0.28\linewidth}
 \begin{minipage}{0.8\linewidth}
 \begin{normalsize}
-Este conjunto de problemas contiene X problemas,\\ páginas numeradas de 1 a Y.\vspace*{0.5in}
+Este conjunto de problemas contiene \CusContestNumberProblems problemas,\\ páginas numeradas de 1 a \CusContestNumberPages.\vspace*{0.5in}
 %Este conjunto de problemas contiene páginas.\vspace*{0.5in}
 \\Organizado por:\vspace*{-0.05in}
 \\\textbf{ACM Chapter Cusco}\\
@@ -209,7 +216,7 @@ Este conjunto de problemas contiene X problemas,\\ páginas numeradas de 1 a Y.\
 \end{minipage}
 \vspace*{0.6in}
 {
-\textbf{Julio X, 2016}\\ \vspace*{-0.6in}
+\textbf{\CusContestDateMonth \CusContestDateDay, \CusContestDateYear}\\ \vspace*{-0.6in}
 \textbf{CUSCO - PERÚ}
 }
 \end{center}
