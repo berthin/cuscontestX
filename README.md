@@ -32,6 +32,7 @@ Para agregar un nuevo problema
    \label{fig:label-figure}
 \end{figure}
 ```
+
 Compilar
 --------
 * Editar el archivo ''./problem-set/CusContestVariablesLatex.in'' bajo el siguiente orden:
@@ -42,12 +43,13 @@ ANhO-DEL-CONURSO
 CUSCONTEST-EDICION
 NUMERO-DE-PAGINAS
 NUMERO-DE-PROBLEMAS
+```
 * ``$ cd problem-set && make && cd ..`` o simplemente  ``$make$ si es que se encuentran dentro de "./problem-set/"
 * Los archivos generados luego de compilar son:
     * "./problem-set/main.pdf" (solo caratula)
     * "./problem-set/problems.pdf" (solo problemas)
     * "./problem-set/problem-set.pdf" (Archivo principal que contiene la caratula y los problemas)
-```
+    
 Requerimientos
 --------------
 * [`make`](http://linux.die.net/man/1/make)
