@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 JUN 2016 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JUN 2016 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -495,40 +495,43 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(./problems/IP.tex
+(./problems/BFS.tex <images/tree.pdf, id=1, 227.59529pt x 137.25778pt>
+File: images/tree.pdf Graphic file (type pdf)
+
+<use images/tree.pdf>
+Package pdftex.def Info: images/tree.pdf used on input line 11.
+(pdftex.def)             Requested size: 227.62204pt x 137.27419pt.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 54.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 32.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2]) (./problems/template.tex [3
+ <./images/tree.pdf>] [2]) (./problems/IP.tex [3
 
-])
+] [4])
+(./problems/template.tex [5
 
-Package caption Warning: Unused \captionsetup[figure] on input line 17.
-See the caption package documentation for explanation.
-
-(./problems.aux) ) 
+]) (./problems.aux) ) 
 Here is how much of TeX's memory you used:
- 4560 strings out of 493089
- 64318 string characters out of 6134842
+ 4571 strings out of 493089
+ 64465 string characters out of 6134842
  146162 words of memory out of 5000000
- 7976 multiletter control sequences out of 15000+600000
+ 7982 multiletter control sequences out of 15000+600000
  9036 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,42p,677b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-sbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-t10.pfb>
-Output written on problems.pdf (3 pages, 90584 bytes).
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmssbx10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmtt10.pfb>
+Output written on problems.pdf (5 pages, 99915 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
