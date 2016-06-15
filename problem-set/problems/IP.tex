@@ -1,0 +1,66 @@
+\begin{problem}{Contador de direcciones IP}{Standard input}{Standard output}{1 second}{}
+
+% Original idea         
+% Problem statement     
+% Testset               
+
+Xavier, un programador muy h\'abil fue contratado por una gran compania de software llamada TORO Out of Control Technologies (TORO-OTC). Reci\'entemente, hab\'ia surgido un problema masivo con las direcciones IP de todas las computadoras de la compan\'ia (aprox. 1000 equipos) y necesitaban con urgencia poder saber la cantidad de direcciones IP que segu\'ian un determinado patr\'on.
+
+Muy brevemente, una direccion IP (la empresa s\'olo trabaja con la versi\'on 4 por el momento)  es una etiqueta asignada a un dispositivo dentro de una red y est\'a representado por un n\'umero de 32 bits. Dicho n\'umero, para ser f\'acilmente leible por nosotros, los humanos, es presentado como 4 n\'umeros decimales (que var\'ian de 0 a 255) separados por un punto. Por ejemplo, algunas direcciones IP son:
+
+\begin{verbatim}
+  192.168.1.1   192.168.0.1   172.0.0.1
+  192.168.1.13  192.168.0.15  172.0.0.15
+  192.168.1.14  192.168.0.16  172.0.0.16
+  192.168.1.15  192.168.0.17  172.0.0.17
+\end{verbatim}
+
+El problema que TORO-OTC ten\'ia yace b\'asicamente en saber cuantas direcciones fueron asginadas siguiendo un determinado patr\'on. Un patr\'on era una direcci\'on IP que pod\'ia contener asteriscos ('*') los cuales reemplazaban n\'umeros (entre 0 y 9), pero tambi\'en un asterisco puede reemplazar n\'umeros en el rango de 0-255 siempre y cuando no haya ning\'un otro n\'umero que condicione la naturaleza del asterisco --- para mayor claridad, consultar los ejemplos. Considerando las direcciones IP proporcionadas, la Tabla~\ref{tab:ip} muestra algunos ejemplos del tipo de consultas que Xavier deber\'ia de responder.
+
+\begin{table}[h]
+\centering
+\caption{}
+\label{tab:ip}
+\begin{tabular}{|l|c|}
+\hline
+Patrón        & Número de direcciones \\
+\hline
+\texttt{192.168.1.* }  & 4 \\
+\texttt{192.168.*.15}  & 2 \\
+\texttt{192.*.*.*   }  & 8 \\
+\texttt{192.168.0.14}  & 0 \\
+\texttt{192.168.1.1 }  & 1 \\
+\texttt{1*2.*.*.1* }   & 6 \\
+\texttt{1*2.*.*.*}     & 8 \\
+\texttt{*.*.*.*}       & 12 \\ 
+\hline
+\end{tabular}
+\end{table}
+
+
+\InputFile
+%<<<<<<< HEAD
+%El problema contiene varios casos de prueba. La primera l\'inea es un entero $t$ $(1\leq t \leq 10^2)$ que denota el número de casos de prueba. Cada caso de prueba está compuesto por dos l\'ineas, en la primera de ellas se encuentran los n\'umeros enteros $N$ y $K$, siendo $N$ el número de piedras medidas ($1 \leq N \leq 10^4$, $1 \leq K \leq 10^9$). Luego, en la segunda l\'inea del caso de prueba se encuentran $N$ enteros distintos $a_1, a_2, \dots, a_N$ que representan las alturas de las piedras ($1 \leq a_i \leq 10^9$).
+%=======
+El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^2)$ que denota el número de casos de prueba. Cada caso está compuesto por dos l\'ineas, en la primera de ellas se encuentran los n\'umeros enteros $N$ y $K$, siendo $N$ el número de piedras medidas ($1 \leq N \leq 10^5$, $1 \leq K \leq 10^9$). Luego, en la segunda l\'inea del caso de prueba se encuentran $N$ enteros distintos $a_1, a_2, \dots, a_N$ que representan las alturas de las piedras ($1 \leq a_i \leq 10^9$).
+%>>>>>>> 88dac51e79acb817e137bf8f1afc256f0d14669f
+
+\OutputFile
+Para cada caso de prueba, el programa deber\'a imprimir la longitud del mayor conjunto libre de $K$-m\'ultiplos que se pueda obtener de la lista de alturas.
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+2
+2 3
+1 3
+6 2
+2 3 6 5 4 10%%END-INPUT
+}{ %%OUTPUT
+1
+3
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}

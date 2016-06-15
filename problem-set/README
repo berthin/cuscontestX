@@ -1,0 +1,24 @@
+README
+++++++
+
+Archivos principales
+--------------------
+>"main.tex" contiene la 'carátula', para compilar:
+$ pdflatex main.tex
+
+>"problems.tex", para compilar (dos veces, es necesario para los números de página):
+$ pdflatex problems.tex
+$ pdflatex problems.tex
+
+Carpetas
+--------
+>"images" contiene las imágenes dentro de "main.tex" y cualquier otro archivo ".tex"
+>"problems" contiene los problemas
+
+Unir PDFs y crear el problem-set final
+--------------------------------------
+$ pdfunite main.pdf problems.pdf problem-set.pdf
+
+Importante
+----------
+Modifica a voluntad bajo tu riesgo.
