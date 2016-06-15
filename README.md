@@ -34,12 +34,7 @@ Para agregar un nuevo problema
 ```
 Compilar
 --------
-* ``$ cd problem-set && make && cd ..`` o simplemente  ``$make$ si es que se encuentran dentro de "./problem-set/"
-* Los archivos generados luego de compilar son:
-    * "./problem-set/main.pdf" (solo caratula)
-    * "./problem-set/problems.pdf" (solo problemas)
-    * "./problem-set/problem-set.pdf" (Archivo principal que contiene la caratula y los problemas)
-* Como ultimo paso, editar el archivo ''./problem-set/CusContestVariablesLatex.in'' bajo el siguiente orden:
+* Editar el archivo ''./problem-set/CusContestVariablesLatex.in'' bajo el siguiente orden:
 ```
 DIA-DEL-CONCURSO
 MES-DEL-CONCURSO
@@ -47,6 +42,11 @@ ANhO-DEL-CONURSO
 CUSCONTEST-EDICION
 NUMERO-DE-PAGINAS
 NUMERO-DE-PROBLEMAS
+* ``$ cd problem-set && make && cd ..`` o simplemente  ``$make$ si es que se encuentran dentro de "./problem-set/"
+* Los archivos generados luego de compilar son:
+    * "./problem-set/main.pdf" (solo caratula)
+    * "./problem-set/problems.pdf" (solo problemas)
+    * "./problem-set/problem-set.pdf" (Archivo principal que contiene la caratula y los problemas)
 ```
 Requerimientos
 --------------
