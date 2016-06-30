@@ -1,0 +1,34 @@
+\begin{problem}{Nombre del Problema}{Standard input}{Standard output}{\textcolor{red}{1} second}{}
+
+% Original idea         
+% Problem statement     
+% Testset        
+       
+Warren y sus amigos piensan ir de paseo hacia Arequipa, para celebrar sus buenas notas en todos los cursos.
+Ellos contrataron un omnibus interprovincial para realizar el viaje, hicieron el contrato para viajar a las $5:00$ am y todos debian estar
+puntuales. Llegado el día del viaje Warren se quedó dormido así que se apresuro en alistarse, y como es una persona ahorradora
+decidió irse en combi pues confiaba que llegaría a tiempo. Cuando ya llegó terminal terrestre, el omnibus al que debia embarcar ya había salido y se encontraba a una distancia $d$ del terminal (todo el trayecto es una linea recta).
+Sin embargo aún tiene la opción de realizar el viaje con sus amigos, él puede tomar un taxi que va a una velocidad constante de $v_t$ y alcanzar al omnibus que tiene una velocidad constante de
+$v_o$. Warren quiere saber si es posible alcanzar al omnibus y en cuanto tiempo podría alcanzar al bus. Ayuda a Warren con su dilema.
+
+
+\InputFile
+El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^4)$ que denota el número de casos de prueba. Cada caso está compuesto UNA l\'inea con los números $v_t,v_o \geq 0$, y $d \geq 0$; siendo $v_t$ la velocidad del taxi, $v_o$ la velocidad del omnibus y $d$ la distancia el omnibus al terminal terrestre.
+
+\OutputFile
+Para cada caso de prueba, el programa deber\'a imprimir el tiempo en el cual el taxi puede alcanzar al omnibus con 4 dígitos de precisión, si fuese imposible entonces deber\'a imprimir $-1$.
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+2
+2 2 2
+5 3 11%%END-INPUT
+}{ %%OUTPUT
+-1
+5.5
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}
