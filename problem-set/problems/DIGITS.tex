@@ -1,0 +1,37 @@
+\begin{problem}{El viaje de Adam}{Standard input}{Standard output}{\textcolor{red}{1} second}{}
+
+% Original idea         
+% Problem statement     
+% Testset               
+
+Adam es una persona a quien le gusta conocer nuevos lugares, actualmente él se encuentra en la ciudad $1$ y quiere llegar a la ciudad de $n + 1$ pasando por $n$ sitios durante su recorrido. 
+Adam sabe que para ir de la ciudad $i$  a la ciudad $i + 1$ existen $a_i$ formas de llegar. Adam desea saber el número de caminos distintos de llegar a la ciudad $n + 1$ desde la ciudad $1$. 
+Sin embargo Adam solo desea saber el primer y último dígito del número de caminos posibles, ya que el número de caminos puede ser un número muy grande.
+
+\InputFile
+El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^3)$ que denota el número de casos de prueba. 
+Cada caso está compuesto por dos l\'ineas, en la primera de ellas se encuentran el entero $n$, el cual denora el número de ciudades que adam debe recorrer ($1 \leq n \leq 10^3$). 
+Y en la segunda l\'inea del caso de prueba se encuentran $n$ enteros distintos $a_1, a_2, \dots, a_n$ que representan el número de caminos posibles ($1 \leq a_i \leq 10^9$) para ir de la ciudad $i$ a la ciudad $i + 1$.
+
+\OutputFile
+Para cada caso de prueba, el programa deber\'a imprimir el primer y último dígito de número de caminos posibles para ir de la ciudad $1$ a la ciudad $n$.
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+3
+1
+10
+3
+3 5 7
+2
+123 456%%END-INPUT
+}{ %%OUTPUT
+1 0
+1 5
+5 8
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}
