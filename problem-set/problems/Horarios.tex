@@ -1,0 +1,39 @@
+\begin{problem}{Horarios}{Standard input}{Standard output}{1 second}{}
+
+% Original idea         
+% Problem statement     
+% Testset               
+
+En la carrera profesional de Ingeniería Informática y de Sistemas muchos alumnos llevan cursos en diferentes horarios. Algunos cursos pueden ser en la mañana, tarde o noche y no siempre se tiene un horario consecutivo.
+
+Warnoldo, es un estudiante de la carrera que estaba preocupado en determinar cuanto es el máximo intérvalo libre y el máximo intervalo consecutivo de cursos que tiene. No es difícil averiguar para una sóla persona dicha información, pero muchos estudiantes al enterarse de la idea de Warnoldo también sienten curiosidad para determinar dichos valores. Por tanto, ahora se necesita diseñar un programa que realice la tarea mencionada.
+
+Dados $N$ cursos y el intérvalo de tiempo (en minutos) de cada curso, tu tarea es determinar el máximo intérvalo libre entre cursos($t_{libre}$) y el máximo intérvalo donde estarás ocupado en los cursos($t_{ocupado}$). Por conveniencia, todos los cursos comienzan a las 7am, los minutos se contarán a partir de las 7am y por tanto, la información de cada curso tendrá un \texttt{tiempo\_inicio} ($t_o$) y \texttt{tiempo\_fin} ($t_f$) ambos en minutos. Si un curso comienza a las 7am y termina a las 9am, $t_o$ será igual a 0 y $t_f$ igual a 120.  
+
+Existe la posibilidad de que los horarios para algunos cursos se sobrepongan.
+
+\InputFile
+El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^2)$ que denota el número de casos de prueba. Cada caso está compuesto por una l\'inea que contiene un número entero $N$ ($0<N\leq 10^2$) indicando la cantidad de cursos. Seguidamente, $N$ lineas serán presentadas conteniendo dos enteros $t_o$ y $t_f$ ($0 \leq t_o < t_f$).
+
+\OutputFile
+Para cada caso de prueba, el programa deber\'a imprimir una línea mostrando los valores de $t_{libre}$ y $t_{ocupado}$ por un espacio en blanco.
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+2
+2
+0 120
+240 360
+3
+300 1000
+700 1200
+1500 2100%%END-INPUT
+}{ %%OUTPUT
+120 120
+300 900
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}
