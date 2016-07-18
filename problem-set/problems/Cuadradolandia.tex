@@ -1,0 +1,35 @@
+\begin{problem}{Cuadradolandia}{Standard input}{Standard output}{\textcolor{red}{1} second}{}
+
+% Original idea         
+% Problem statement     
+% Testset               
+En el pais de cuadradolandia, las construciones se realizan usando figuras geométricas muy especiales. Los habitantes de esta ciudad se divierten contando el número de cuadrados, cubos, hipercupos u otras figuras geométricas de tamaño regular. Cierto día Warrencio, el más hábil de la ciudad se pregunta sí hay una forma de calcular el número de cuadrados para una pared de $NxN$ o el número de cubos en un edificio de $NxNxN$ o el numero de hipecubos en un edificio de $NxNxNxN$ o inclusive para edificaciones en una dimensión $D$. Tu tarea es ayudar a Warrencio en su noble tarea.
+
+\InputFile
+La primera linea de la entrada comienza con un simple entero que representa el numero de casos. Cada caso esta conformado por una linea de 2 enteros $M$ y $D$ donde $M$ es el número de figuras geométricas en un espacio $D$ dimecional de tamaño $1x1x1..x1$($D$ veces). 
+
+Limites:
+
+$N \leq 7$, $D \leq 5$, $M \leq 7^5$ 
+
+\OutputFile
+Para cada caso de prueba tienes que dar como respuesta el máximo número de figuras geométricas en una dimesión $D$ que se quedes formar inclusive de tamaño $NxNxN..xN$($D$ veces). 
+
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+3
+4 2
+8 3
+81 4
+%%END-INPUT
+}{ %%OUTPUT
+5
+9
+98 
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}
