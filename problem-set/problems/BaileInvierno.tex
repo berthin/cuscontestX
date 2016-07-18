@@ -4,16 +4,16 @@
 % Problem statement     
 % Testset               
 
-Hogwarts fue escogida como sede de la mayor competencia entre magos del mundo, el Torneo de los Tres Magos, que envolverá las tres escuelas de magia más famosas de Europa: Hogwarts, Beauxbatons y Durmstrang. Este torneo funciona de la siguiente forma. Inicialmente, un representante (llamada campeón) de cada escuela es seleccionado a través del Cáliz de Fuego. Después, los campeones realizan, a lo largo del año, tres tareas diferentes. Se consagra de vencedor del Torneo de los Tres Magos el campeón  que acumula más puntos en las tres tareas.
+Hogwarts fue escogida como sede de la mayor competencia entre magos del mundo, el Torneo de los Tres Magos, que envolverá las tres escuelas de magia más famosas de Europa: Hogwarts, Beauxbatons y Durmstrang. Este torneo funciona de la siguiente forma. Inicialmente, un representante (llamado campeón) de cada escuela es seleccionado a través del Cáliz de Fuego. Después, los campeones realizan, a lo largo del año, tres tareas diferentes. Se consagra de vencedor del Torneo de los Tres Magos el campeón  que acumula más puntos en las tres tareas.
 
-Parte tradicional del Torneo de los Tres Magos, el Baile de Invierno se llevará a cabo en el Gran Salón, en el dia de Navidad. La profesora Minerva McGonagall fui designada como responsable por las aulas de baile de los alumnos de Hogwarts, a fin de prepararlos para el Baile de Invierno. Después del término de aulas, muchas parejas fueron formadas voluntariamente, sin embargo algunos alumnos permanecieron sin pareja. Por esta razón, la profesora Minerva decidió formar parejas por cuenta propia.
+Parte tradicional del Torneo de los Tres Magos, el Baile de Invierno se llevará a cabo en el Gran Salón, en el día de Navidad. La profesora Minerva McGonagall fue designada como responsable por las aulas de baile de los alumnos de Hogwarts. A fin de prepararlos para el Baile de Invierno, después del término de aulas muchas parejas fueron formadas voluntariamente. Sin embargo algunos alumnos permanecieron sin pareja. Por esta razón, la profesora Minerva decidió formar parejas por cuenta propia.
 
-Ella cree que la mejor forma de formar las parejas es unir un hombre y una mujer que tengan, como máximo, una pequeña diferencia entre sus habilidades de baile. Dado que la profesora Minerva conoce la habilidad de baile (representado por número entero entre 1 e 100, tal que el número 1 se refiere a un pésimo bailarín y el número 100 se refiere a un bailarín perfecto) de cada uno de sus alumnos, ella intentará formar el mayor número de parejas tales que, para cada pareja, la diferencia de habilidades de baile entre el hombre y la mujer sea menor o igual a un número entero D. Las parejas formadas deste modo son llamadas “parejas equilibradas”.
+Ella cree que la mejor forma de emparejar es unir un hombre y una mujer que tengan, como máximo, una pequeña diferencia entre sus habilidades de baile. Dado que la profesora Minerva conoce la habilidad de baile (representado por número entero entre 1 y 100, tal que el número 1 se refiere a un pésimo bailarín y el número 100 se refiere a un bailarín perfecto) de cada uno de sus alumnos, ella intentará formar el mayor número de parejas tales que, para cada pareja, la diferencia de habilidades de baile entre el hombre y la mujer sea menor o igual a un número entero $D$. Las parejas formadas deste modo son llamadas “parejas equilibradas”.
 
 Tu tarea es escribir un programa que, dadas las habilidades de baile de los alumnos sin pareja y la diferencia máxima de habilidades permitida entre los integrantes de una pareja, determinar el mayor número de parejas equilibradas que pueden ser formadas.
 
 \InputFile
-El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ ($1\leq T \leq 10^2$) que denota el número de casos de prueba. Cada caso está compuesto por tres lines, donde la primera contiene tres números enteros $M$, $N$, y $D$ ($1 \leq M, N \leq 10^5, 0 \leq D \leq 99$) tales que M representa el número de hombres, $N$ el número de mujeres, y $D$ la diferencia máxima de habilidades permitida entre cada integrante de una pareja. La segunda línea contiene $M$ números enteros $X_1, X_2, \dots, X_M$ ($1 \leq X_i \leq 10^2$) que representan las habilidades de los hombres. La tercera línea contiene $N$ números enteros $Y_1, Y_2, \dots, Y_N$ ($1 \leq Y_i \leq 10^2$) que representan las habilidades de las mujeres.
+El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ ($1\leq T \leq 100$) que denota el número de casos de prueba. Cada caso está compuesto por tres lineas, donde la primera contiene tres números enteros $M$, $N$, y $D$ ($1 \leq M, N \leq 10^5, 0 \leq D \leq 99$) tales que M representa el número de hombres, $N$ el número de mujeres, y $D$ la diferencia máxima de habilidades permitida entre cada integrante de una pareja. La segunda línea contiene $M$ números enteros $X_1, X_2, \dots, X_M$ ($1 \leq X_i \leq 100$) que representan las habilidades de los hombres. La tercera línea contiene $N$ números enteros $Y_1, Y_2, \dots, Y_N$ ($1 \leq Y_i \leq 100$) que representan las habilidades de las mujeres.
 
 \OutputFile
 Para cada caso de prueba, el programa deber\'a imprimir una línea con el formato ``\texttt{\# maximo de parejas equilibradas = $X$}'', donde $X$ indica el mayor número de parejas equilibradas que pueden ser formadas.
@@ -28,8 +28,8 @@ Para cada caso de prueba, el programa deber\'a imprimir una línea con el format
 6 2
 2 3 6 5 4 10%%END-INPUT
 }{ %%OUTPUT
-\# maximo de parejas equilibradas 2
-\# maximo de parejas equilibradas 0
+\# maximo de parejas equilibradas = 2
+\# maximo de parejas equilibradas = 0
 } %%END-OUTPUT
 \end{example}
 

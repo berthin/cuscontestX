@@ -4,36 +4,34 @@
 % Problem statement     
 % Testset               
 
-Reciéntemente, un grupo estudiantil decidió digitalizar todos los documentos de texto en la universidad. Xavier, estudiante de Informática quiso agilizar todo el procedimiento mediante algoritmos de reconocimiento de texto en imágenes. Sin embargo, su algoritmo tenía un error que invertía las oraciones.
-
-Suponiendo que uno de los documentos que necesitan ser digitalizados es el siguiente:
+Reciéntemente, un grupo estudiantil decidió digitalizar todos los documentos de texto en la universidad. Xavier, estudiante de Informática quiso agilizar todo el procedimiento mediante algoritmos de reconocimiento de texto en imágenes. Sin embargo, su algoritmo tenía un error que invertía las oraciones. Por ejemplo, uno de los documentos que necesitan ser digitalizado contenía el siguiente texto:
 
 \begin{figure}[htb]
 \centering
 \begin{BVerbatim}
 La derrota no es el peor de los fracasos.  No
-intentarlo es el verdadero fracaso.  La  vida 
-esta  llena  de  muchos  fracasos.  La  unica 
+intentarlo es el verdadero fracaso. La  unica 
 decision  valida  es  no  rendirse  y  seguir
 continuando la pelea.
 \end{BVerbatim}
 \end{figure}
 
-El algoritmo de Xavier retornaba:
+Pero el algoritmo de Xavier retornaba:
+
 \begin{figure}[htb]
 \centering
 \begin{BVerbatim}
 Fracasos  los  de  peor  el es no derrota la.
 Fracaso   verdadero   el  es  intentarlo  no.
-Fracasos  muchos de llena esta la vida. Pelea
-la continuando seguir y rendirse no es valida
-decision unica la.
+Pelea la continuando seguir y rendirse no  es
+valida decision unica la.
 \end{BVerbatim}
 \end{figure}
 
 Ayuda a Xavier diseñando un algoritmo que reciba como entrada una oración y genere la oración invertida correspondientemente.
 
-Por simplicidad, dentro de una oración sólo el primer caracter de la primera palabra será en mayúscula, y esto debe de cumplirse siempre. No habrán signos de puntuación a exception del punto final que indica el fin de una oración. Considerar que entre dos palabras sólo habrá un espacio en blanco de separación.
+Por simplicidad, dentro de una oración sólo el primer caracter de la primera palabra estará en mayúscula, y esto debe de cumplirse siempre. No habrán signos de puntuación a excepción del punto final que indica el fin de una oración. Considerar que entre dos palabras sólo habrá un espacio en blanco de separación.
+
 
 \InputFile
 El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^2)$ que denota el número de casos de prueba. Cada caso está compuesto por una oración que contiene una o más palabras. La longitud total de una oración no será mayor a $10^3$ caracteres contando espacios en blano y el punto final.

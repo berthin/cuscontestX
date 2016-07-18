@@ -30,8 +30,9 @@ Patrón        & Número de direcciones \\
 \texttt{192.*.*.*   }  & 8 \\
 \texttt{192.168.0.14}  & 0 \\
 \texttt{192.168.1.1 }  & 1 \\
-\texttt{1*2.*.*.1* }   & 6 \\
-\texttt{1*2.*.*.*}     & 8 \\
+\texttt{1*2.*.0.1* }   & 6 \\
+\texttt{1*2.**8.*.*}   & 8 \\
+\texttt{1*2.*8.*.*}    & 0 \\
 \texttt{*.*.*.*}       & 12 \\ 
 \hline
 \end{tabular}
@@ -39,10 +40,10 @@ Patrón        & Número de direcciones \\
 
 
 \InputFile
-El problema contiene varios casos de prueba. Las primera l\'inea es un entero $T$ ($1 \leq T \leq T$) que denota el n\'umero de casos de prueba. Cada caso inicia con una l\'inea ``\texttt{Inicio}'' y termina con una l\'ina ``\texttt{Fin}'' (sin comillas) y está compuesto por una lista de consultas en medio. Las consultas pueden ser de dos tipos. ``\texttt{Agregar IP}'', donde IP tendr\'a el formato de una IP v\'alida antes expuesta, y ``\texttt{Contar PATRON}'' que define el patr\'on sobre el cual se debe de contar las IPs almacenadas hasta el momento. Se garantiza que no se agregar\'an IPs repetidas para un mismo caso de prueba.
+El problema contiene varios casos de prueba. Las primera l\'inea es un entero $T$ ($1 \leq T \leq 100$) que denota el n\'umero de casos de prueba. Cada caso inicia con una l\'inea ``\texttt{Inicio}'' y termina con una l\'ina ``\texttt{Fin}'' (sin comillas) y está compuesto por una lista de consultas en medio. Las consultas pueden ser de dos tipos. ``\texttt{Agregar IP}'', donde IP tendr\'a el formato de una IP v\'alida antes expuesta, y ``\texttt{Contar PATRON}'' que define el patr\'on sobre el cual se debe de contar las IPs almacenadas hasta el momento. Se garantiza que no se agregar\'an IPs repetidas para un mismo caso de prueba.
 
 \OutputFile
-Para cada caso de prueba, el programa deber\'a imprimir ``\texttt{Caso \#i:}'' en una nueva l\'inea (sin comillas) y a continuaci\'ion las respuestas a las consultas. Cada respuesta debe de ir en una l\'inea.
+Para cada caso de prueba, el programa deber\'a imprimir ``\texttt{Caso \#i:}'' en una nueva l\'inea (sin comillas) y a continuaci\'ion las respuestas a las consultas del tipo \texttt{Contar}. Cada respuesta debe de ir en una l\'inea.
 
 \Example
 
