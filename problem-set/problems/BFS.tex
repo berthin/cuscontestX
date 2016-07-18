@@ -16,7 +16,7 @@ Tu deber es recorrer el grafo y mostrarlo por niveles, es decir, primero la raiz
 \begin{verbatim}
       4
       3 6 0
-      1 7 9 2 8 4
+      1 7 9 2 8 11
       5 10
 \end{verbatim}
 
@@ -30,11 +30,13 @@ Para cada caso de prueba, el programa deber\'a imprimir ``\texttt{Caso \#i:}'' (
 
 \begin{example}
 \exmp{%%INPUT
-2
+3
 2
 0 1
 5
-0 1 1 2 2 3 3 4%%END-INPUT
+0 1 1 2 2 3 3 4
+11
+4 3 3 1 6 2 0 11 3 9 4 0 1 5 6 8 1 10 3 7 4 6%%END-INPUT
 }{ %%OUTPUT
 Caso \#1:
 0
@@ -45,6 +47,11 @@ Caso \#2:
 2
 3
 4
+Caso \#3:
+4
+3 6 0
+1 7 9 2 8 11
+5 10
 } %%END-OUTPUT
 \end{example}
 

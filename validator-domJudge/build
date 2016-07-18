@@ -1,0 +1,4 @@
+#!/bin/sh
+
+g++ bfs_validator_domjudge.cpp -o run
+

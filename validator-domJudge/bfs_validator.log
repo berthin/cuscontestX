@@ -1,0 +1,531 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2015/Debian) (preloaded base=mf 2016.2.26)  16 JUL 2016 23:41
+**bfs_validator.cpp bfs_validator
+(bfs_validator.cpp
+>> -fstream+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.1 #include <fstream>
+                      
+? 
+! Interruption.
+l.1 #include <fstream>
+                      
+? 
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.2 #include <
+              iostream>
+? 
+>> -iostream+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.2 #include <iostream>
+                       
+? 
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.3 #include <
+              string>
+? 
+! A primary expression can't begin with `>'.
+<inserted text> 
+                0
+<to be read again> 
+                   >
+l.3 #include <string>
+                     
+? 
+>> #include
+>> false
+! Not implemented: (unknown numeric)<(boolean).
+<to be read again> 
+                   >
+l.3 #include <string>
+                     
+? qui
+OK, entering batchmode...
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.4 #include <
+              cstdio>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -cstdio+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.4 #include <cstdio>
+                     
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.5 #include <
+              cstdlib>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -cstdlib+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.5 #include <cstdlib>
+                      
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.6 #include <
+              cstring>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -cstring+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.6 #include <cstring>
+                      
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.7 #include <
+              cassert>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -cassert+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.7 #include <cassert>
+                      
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.8 #include <
+              cmath>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -cmath+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.8 #include <cmath>
+                    
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.9 #include <
+              cstdarg>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -cstdarg+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.9 #include <cstdarg>
+                      
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.10 #include <
+               string>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+! A primary expression can't begin with `>'.
+<inserted text> 
+                0
+<to be read again> 
+                   >
+l.10 #include <string>
+                      
+I'm afraid I need some sort of value in order to continue,
+so I've tentatively inserted `0'. You may want to
+delete this zero and insert something else;
+see Chapter 27 of The METAFONTbook for an example.
+
+>> #include
+>> false
+! Not implemented: (unknown numeric)<(boolean).
+<to be read again> 
+                   >
+l.10 #include <string>
+                      
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.11 #include <
+               iterator>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -iterator+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.11 #include <iterator>
+                        
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.12 #include <
+               vector>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -vector+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.12 #include <vector>
+                      
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.13 #include <
+               stack>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -stack+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.13 #include <stack>
+                     
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> #include
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   <
+l.14 #include <
+               sstream>
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> -sstream+#include
+! Unknown relation will be considered false.
+<to be read again> 
+                   >
+l.14 #include <sstream>
+                       
+Oh dear. I can't decide if the expression above is positive,
+negative, or zero. So this comparison test won't be `true'.
+
+>> false
+>> const.int.EXIT_AC
+! Not implemented: (boolean)>(unknown numeric).
+<to be read again> 
+                   =
+l.16 const int EXIT_AC =
+                         42;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> using.namespace.std
+! Isolated expression.
+<to be read again> 
+                   ;
+l.19 using namespace std;
+                         
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+>> ifstream.judgein
+! Isolated expression.
+<to be read again> 
+                   ,
+l.21 ifstream judgein,
+                       judgeans;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   ,
+l.21 ifstream judgein,
+                       judgeans;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> FILE
+>> judgemessage
+! Not implemented: (unknown numeric)*(unknown numeric).
+<to be read again> 
+                   =
+l.23 FILE *judgemessage =
+                          NULL;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> FILE
+>> diffpos
+! Not implemented: (unknown numeric)*(unknown numeric).
+<to be read again> 
+                   =
+l.24 FILE *diffpos =
+                     NULL;
+I'm afraid I don't know how to apply that operation to that
+combination of types. Continue, and I'll return the second
+argument (see above) as the result of the operation.
+
+>> int.judgeans_pos
+! Isolated expression.
+<to be read again> 
+                   ,
+l.25 int judgeans_pos,
+                       stdin_pos;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   ,
+l.25 int judgeans_pos,
+                       stdin_pos;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> int.judgeans_line
+! Isolated expression.
+<to be read again> 
+                   ,
+l.26 int judgeans_line,
+                        stdin_line;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   ,
+l.26 int judgeans_line,
+                        stdin_line;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> void.judge_error
+! Isolated expression.
+<to be read again> 
+                   (
+l.29 void judge_error(
+                      const char *err, ...) {
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.29 void judge_error(
+                      const char *err, ...) {
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> va_start
+! Isolated expression.
+<to be read again> 
+                   (
+l.31 	va_start(
+               pvar, err);
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.31 	va_start(
+               pvar, err);
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> //If.judgemessage.hasn't.been.set.up.yet
+! Isolated expression.
+<to be read again> 
+                   ,
+l.32 	// If judgemessage hasn't been set up yet,
+                                                 write error to stderr
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   ,
+l.32 	// If judgemessage hasn't been set up yet,
+                                                 write error to stderr
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> vfprintf
+! Isolated expression.
+<to be read again> 
+                   (
+l.34 	vfprintf(
+               judgemessage, err, pvar);
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.34 	vfprintf(
+               judgemessage, err, pvar);
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> fprintf
+! Isolated expression.
+<to be read again> 
+                   (
+l.35 	fprintf(
+              judgemessage, "\n");
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.35 	fprintf(
+              judgemessage, "\n");
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> assert
+! Isolated expression.
+<to be read again> 
+                   (
+l.36 	assert(
+             !"Judge Error");
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.36 	assert(
+             !"Judge Error");
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! A statement can't begin with `}'.
+<to be 

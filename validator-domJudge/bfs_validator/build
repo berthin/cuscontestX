@@ -1,0 +1,1 @@
+g++ bfs_validator.cpp -o run
