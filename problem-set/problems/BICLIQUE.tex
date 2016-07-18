@@ -4,36 +4,36 @@
 % Problem statement     
 % Testset               
 
-El profesor de algoritmos está a punto de desaprobar a warrencio pero warrencio en la desesperación le propone hacer lo que sea para que pueda aprobar es así que el profesor le pide una tarea titánica el cual consiste en dado un grafo no dirigido hallar el biclique con más aristas dentro del grafo; al ver la cara entristecida de warren el profesor se apiada  y le da una ayuda, el profesor le da el primer conjunto del biclique, ahora la tarea se resumen en dado un conjunto $S_1$ encontrar el conjunto $S_2$, se asegura que siempre habrá un $S_2$ de tamaño mayor o igual a $1$. 
+El profesor de algoritmos está a punto de desaprobar a Warrencio pero él en la desesperación le propone hacer lo que sea para que pueda aprobar es así que el profesor le pide una tarea titánica el cual consiste en: dado un grafo no dirigido hallar el biclique con más aristas dentro del grafo; al ver la cara entristecida de Warrencio el profesor se apiada  y le da una ayuda, el profesor le da el primer conjunto del biclique, ahora la tarea se resume en: dado un conjunto $S_1$ encontrar el conjunto $S_2$ del biclique para un grafo $G$, se asegura que siempre habrá un $S_2$ de tamaño mayor o igual a $1$. 
 
-nota:
+Nota:
 
-un biclique es un grafo bipartido completo, es decir cada elemento de conjunto S1 tiene una aristas a cada elemento de $S_2$, (un grafo bipartito es un grafo cuyos vértices se pueden separar en dos conjuntos disjuntos).
+Un biclique es un grafo bipartido completo, es decir que dado un conjunto de nodos $S_1$ existe un conjuto de nodos $S_2$ tal que existe una arista entre cada par de vertices de $S_1$ y $S_2$.
 
 \InputFile
 la entrada consta de $T$ casos de entrada, cada caso sigue el siguiente formato de entrada: 
-la primera línea consta de dos  enteros $n$,$m$. $n$ es el número de vértices del grafo no dirigido y $m$ el número de aristas las siguientes $m$ líneas contienen dos enteros $u$ y $v$ que representan una arista entre el nodo $u$ y el nodo $v$ seguido de una un entero $K$ que representa el tamaño de $S_1$ finalmente la última línea de cada caso consta de $K$ enteros. 
+la primera línea consta de dos  enteros $n$,$m$. $n$ es el número de nodos del grafo no dirigido y $m$ el número de aristas las siguientes $m$ líneas contienen dos enteros $u$ y $v$ que representan una arista entre el nodo $u$ y el nodo $v$ seguido de una un entero $K$ que representa el tamaño de $S_1$ finalmente la última línea de cada caso consta de $K$ enteros que representan los elementos de $S_1$. 
 
-limitaciones 
+límites:
 
 $1 \leq n,m,k \leq 500; 0 \leq u,v<n $ 
 
 \OutputFile
-Para cada caso de prueba, el programa deber\'a imprimir el conjunto $S_2$.
+Para cada caso de prueba, el programa deberá imprimir el conjunto $S_2$.
 
 \Example
 
 \begin{example}
 \exmp{%%INPUT
-1
-4  
+4 4  
 1 4
-2 1
-3 
-2 3 6 5 4 10%%END-INPUT
+1 3
+2 3
+2 4
+2
+3 4%%END-INPUT
 }{ %%OUTPUT
-1
-3
+1 2
 } %%END-OUTPUT
 \end{example}
 
