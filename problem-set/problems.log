@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.2.26)  18 JUL 2016 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.3.27)  18 JUL 2016 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **problems.tex
 (./problems.tex
 LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 4 languages loaded.
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -541,17 +541,17 @@ Package pdftex.def Info: images/tree.pdf used on input line 13.
 
 ]) (./problems/BaileInvierno.tex [11
 
-])
-(./problems/Cuadradolandia.tex [12
+] [12])
+(./problems/Cuadradolandia.tex [13
 
 ]) (./problems.aux) ) 
 Here is how much of TeX's memory you used:
- 4976 strings out of 494957
- 70460 string characters out of 6180028
- 149038 words of memory out of 5000000
- 8114 multiletter control sequences out of 15000+600000
+ 4976 strings out of 493085
+ 70460 string characters out of 6136917
+ 153694 words of memory out of 5000000
+ 8357 multiletter control sequences out of 15000+600000
  9036 words of font info for 33 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  44i,9n,42p,802b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -561,10 +561,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on problems.pdf (12 pages, 137272 bytes).
+Output written on problems.pdf (13 pages, 137736 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 88 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
