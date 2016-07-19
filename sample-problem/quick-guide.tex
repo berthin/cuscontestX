@@ -1,0 +1,112 @@
+\documentclass[11pt,a4paper,oneside]{article}
+
+\usepackage[english]{babel}
+\usepackage{olymp}
+\usepackage{amsmath}
+%\usepackage{bnf}
+\usepackage{graphicx}
+%\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+
+\usepackage{fancyvrb}
+\usepackage[utf8]{inputenc}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+% Python style for highlighting
+\lstdefinestyle{pythonstl}{
+language=Python,
+basicstyle=\ttm,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\ttb\color{deepblue},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{deepred},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+%frame=tb,                         % Any extra options here
+%frame=L,
+numberstyle=\color{red},
+numbers=left,                    
+numbersep=15pt,
+xleftmargin=1cm,
+showstringspaces=false            % 
+}
+
+%\usepackage[font=small,textfont=it]{caption}
+
+\begin{document}
+
+\input SumandoNumeros.tex
+
+\newpage
+\textbf{\Large{\textsf{Solution}}}
+
+Solución en Python:
+\lstinputlisting[language=Python, style=pythonstl]{SumandoNumeros.py}
+
+\textbf{\Large{\textsf{Judging Stage}}}
+
+El programa enviado al \textbf{juez} será evaluado con casos diversos casos de prueba  y la salida será evaluada con el archivo de salida correcto que se encuentra cargado en el \textbf{juez}.
+
+Por ejemplo, para el problema anterior se han cargado los archivos \texttt{Judge.in} y \texttt{Judge.out} indicando los datos de entrada y salida. El \textbf{juez} compilará el programa enviado y lo ejecutará con \texttt{Judge.in}, la salida \texttt{Answer.out} será comparada con \texttt{Judge.out} y si ambas salidas son iguales, el \textbf{juez} retornará un mensaje de \textbf{Accepted}.
+
+
+\begin{examplejudge}
+\exmpjudge{
+10
+10
+896 545 866 525 713 764 265 159 473 284
+9
+528 489 971 691 244 222 526 81 609
+5
+839 480 486 26 507
+9
+941 97 399 555 330 212 734 834 756
+9
+206 671 656 596 708 305 282 0 636
+6
+547 91 120 942 48 610
+8
+756 584 554 663 474 309 941 495
+3
+456 390 665
+9
+727 138 242 873 37 883 984 63 661
+5
+900 972 283 488 637
+}{
+Caso \#1: 5490
+Caso \#2: 4361
+Caso \#3: 2338
+Caso \#4: 4858
+Caso \#5: 4060
+Caso \#6: 2358
+Caso \#7: 4776
+Caso \#8: 1511
+Caso \#9: 4608
+Caso \#10: 3280
+}{
+Caso \#1: 5490
+Caso \#2: 4361
+Caso \#3: 2338
+Caso \#4: 4858
+Caso \#5: 4060
+Caso \#6: 2358
+Caso \#7: 4776
+Caso \#8: 1511
+Caso \#9: 4608
+Caso \#10: 3280
+}%
+\end{examplejudge}
+
+\end{document}
