@@ -12,7 +12,7 @@ using namespace std;
 #define show(x) cout << #x << " " << x << endl
 
 #define MAX_N 1000
-#define MIN_N 100
+#define MIN_N 50
 
 
 int main(int n_args, char *argv[]){
@@ -61,7 +61,7 @@ int main(int n_args, char *argv[]){
         nodes_per_level[i].push_back(nodes[idx_nodes--]);
       }
     }
-    while (idx_nodes >= 0) nodes_per_level[tree_level - 1].push_back(idx_nodes--);
+    while (idx_nodes >= 0) nodes_per_level[tree_level - 1].push_back(nodes[idx_nodes--]);
 
     //create edges
     E.clear();
@@ -75,7 +75,7 @@ int main(int n_args, char *argv[]){
     //print test in
     random_shuffle(E.begin(), E.end());
     fprintf(testinfile, "%d %d", E[0].first, E[0].second);
-    for (int i = 1; i < tree_level - 1; i++) fprintf(testinfile, " %d %d", E[i].first, E[i].second);
+    for (int i = 1; i < E.size(); i++) fprintf(testinfile, " %d %d", E[i].first, E[i].second);
     fprintf(testinfile, "\n");
 
     //print test out

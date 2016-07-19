@@ -13,7 +13,13 @@ Dados $N$ cursos y el intérvalo de tiempo (en minutos) de cada curso, tu tarea 
 Existe la posibilidad de que los horarios para algunos cursos se sobrepongan.
 
 \InputFile
-El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10)$ que denota el número de casos de prueba. Cada caso está compuesto por una l\'inea que contiene un número entero $N$ ($0<N\leq 5\times10^3$) indicando la cantidad de cursos. Seguidamente, $N$ lineas serán presentadas conteniendo dos enteros $t_o$ y $t_f$ ($0 \leq t_o < t_f$).
+La entrada del problema contiene varios casos de prueba. La primera línea es un entero $T$ $(1\leq T \leq 10)$ indicando el número de casos de prueba. Para cada caso, se sigue el siguiente formato de entrada:
+
+\begin{itemize}
+\item La primera línea contiene contiene un número entero $N$ indicando la cantidad de cursos ($0<N\leq 5\times10^3$).
+
+\item Las siguientes $N$ líneas contienen dos enteros $t_o$ y $t_f$ indicando el tiempo de inicio y fin de cada curso ($0 \leq t_o < t_f$).
+\end{itemize}
 
 \OutputFile
 Para cada caso de prueba, el programa deber\'a imprimir una línea mostrando los valores de $t_{libre}$ y $t_{ocupado}$ por un espacio en blanco.
@@ -27,12 +33,12 @@ Para cada caso de prueba, el programa deber\'a imprimir una línea mostrando los
 0 120
 240 360
 3
-300 1000
-700 1200
-1500 2100%%END-INPUT
+30 100
+70 120
+150 210%%END-INPUT
 }{ %%OUTPUT
 120 120
-300 900
+30 90
 } %%END-OUTPUT
 \end{example}
 

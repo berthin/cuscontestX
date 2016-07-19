@@ -1,0 +1,38 @@
+\begin{problem}{Warrencio y el Dota}{Standard input}{Standard output}{1 second}{}
+
+% Original idea         
+% Problem statement     
+% Testset               
+
+Cierto día Warrencio y sus $N$ amigos fueron al BZ a jugar Dota. Cada uno tiene preferencia de usar algunas máquinas y no puede usar otras aunque estén disponibles --- al final un jugador sólo puede usar a lo más una máquina pero puede preferir varias. Al llegar a recinto de la sabiduría y las buenas palabras notaron que sólo disponen de M máquinas. Por lo tanto, ayuda a Warrencio a calcular cuantos de sus amigos jugarán con él. Warren siempre va a usar una máquina ya que el vicio le hizo tener un trato especial con el dueño del internet.
+
+\InputFile
+La entrada del problema contiene varios casos de prueba. La primera línea es un entero $T$ indicando el número de casos de prueba. Para cada caso, se sigue el siguiente formato de entrada:
+
+\begin{itemize}
+\item La primera línea contiene 3 enteros $N$, $M $ y $P$. $N$ es el número de amigos de Warren, $M$ es el número de máquinas y $P$ es el número de preferencias de todos los jugadores ($0 \leq N \leq 99$, $0 \leq M \leq 100$ y $0 \leq P \leq N\times M$).
+
+\item Las siguientes $P$ líneas contienen 2 enteros $u$ y $v$ siendo $u$ el índice de los jugadores y $v$ es el índice de las máquinas ($0 \leq u \leq N$  y $0 \leq v<M$). Warrencio tiene el índice $0$
+\end{itemize}
+
+\OutputFile
+Para cada caso se debe imprirmir el número máximo de amigos de Warrencio que tienen una máquina para jugar.  
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+1
+3 4 5
+0 2
+1 0
+2 3
+3 1
+3 2
+%%END-INPUT
+}{ %%OUTPUT
+3
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}

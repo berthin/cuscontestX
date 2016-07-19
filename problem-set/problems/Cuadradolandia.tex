@@ -1,19 +1,22 @@
-\begin{problem}{Cuadradolandia}{Standard input}{Standard output}{\textcolor{red}{1} second}{}
+\begin{problem}{Cuadradolandia}{Standard input}{Standard output}{1 second}{}
 
 % Original idea         
 % Problem statement     
 % Testset               
-En el pais de cuadradolandia, las construciones se realizan usando figuras geométricas muy especiales. Los habitantes de esta ciudad se divierten contando el número de cuadrados, cubos, hipercupos u otras figuras geométricas de tamaño regular. Cierto día Warrencio, el más hábil de la ciudad se pregunta sí hay una forma de calcular el número de cuadrados para una pared de $N*N$ o el número de cubos en un edificio de $N*N*N$ o el numero de hipecubos en un edificio de $N*N*N*N$ o inclusive para edificaciones en una dimensión $D$. Tu tarea es ayudar a Warrencio en su noble tarea.
+En el país de Cuadradolandia, las construciones se realizan usando figuras geométricas muy especiales. Los habitantes de esta ciudad se divierten contando el número de cuadrados, cubos, hipercupos u otras figuras geométricas de tamaño regular.
+
+Cierto día Warrencio, el más hábil de la ciudad se pregunta sí hay una forma de calcular el número de cuadrados para una pared de $N\times N$ o el número de cubos en un edificio de $N\times N\times N$ o el número de hipercubos en un edificio de $N\times N\times N\times N$ o inclusive para edificaciones en espacios $D$-dimensionales. Tu tarea es ayudar a Warrencio en su noble tarea.
 
 \InputFile
-La primera linea de la entrada comienza con un simple entero que representa el numero de casos. Cada caso esta conformado por una linea de 2 enteros $M$ y $D$ donde $M$ es el número de figuras geométricas en un espacio $D$ dimecional de tamaño $1*1*1..*1$($D$ veces). 
 
-Límites:
+La entrada del problema contiene varios casos de prueba. La primera línea es un entero $T$ indicando el número de casos de prueba. Para cada caso, se sigue el siguiente formato de entrada:
 
-$ 1 \leq N \leq 7$, $ 2 \leq D \leq 5$, $M \leq 7^5$ 
+\begin{itemize}
+\item Una línea que contiene 2 enteros $M$ y $D$ siendo $M$ el número de figuras geométricas regulares de dimensión $\underbrace{1\times 1\times \dots \times 1}_{D~veces}$ en un espacio $D$-dimensional ($1 \leq M \leq 16807$ y $1 \leq D \leq 5$).
+\end{itemize}
 
 \OutputFile
-Para cada caso de prueba, tienes que dar como respuesta el máximo número de figuras geométricas en una dimesión $D$ que se quedes formar inclusive de tamaño $N*N*N..*N$($D$ veces). 
+Para cada caso de prueba, imprimir en una línea el máximo número de figuras geométricas regulares que se pueden formar. 
 
 
 \Example
@@ -32,4 +35,8 @@ Para cada caso de prueba, tienes que dar como respuesta el máximo número de fi
 } %%END-OUTPUT
 \end{example}
 
+~\\ \\
+\textbf{\Large{\textsf{Observación}}}
+
+Considerando un muro en 2 dimensiones de tamaño $3\times 3$, el número de figuras geométricas regulares que los habitantes de Cuadradolandia de dimensión $1\times 1$ es igual a 9.
 \end{problem}

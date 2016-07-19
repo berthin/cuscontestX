@@ -1,4 +1,4 @@
-\begin{problem}{Un viaje de ensue\~no}{Standard input}{Standard output}{\textcolor{red}{1} second}{}
+\begin{problem}{Un viaje de ensue\~no}{Standard input}{Standard output}{1 second}{}
 
 % Original idea         
 % Problem statement     
@@ -11,10 +11,16 @@ Llegado el día del viaje Warren se quedó dormido así que se apresuro en alist
 Ayuda a Warren con su dilema.
 
 \InputFile
-El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^4)$ que denota el número de casos de prueba. Cada caso está compuesto una l\'inea con los números $v_t$, $v_o$ y $d$ ($0 \leq v_t, v_o, d $); siendo $v_t$ la velocidad del taxi, $v_o$ la velocidad del omnibus y $d$ la distancia del omnibus al terminal terrestre.
+
+La entrada del problema contiene varios casos de prueba. La primera línea es un entero $T$ ($1 \leq T \leq 10^4$) indicando el número de casos de prueba. Para cada caso, se sigue el siguiente formato de entrada:
+
+\begin{itemize}
+\item Una línea que contiene 3 enteros $v_t, v_o$ y $d$ indicando la velocidad del taxi, velocidad del omnibus, y la distancia entre la terminal y el omnimus ($0 \leq v_t, v_o, d$).
+
+\end{itemize}
 
 \OutputFile
-Para cada caso de prueba, el programa deber\'a imprimir el tiempo en el cual el taxi puede alcanzar al omnibus con 4 dígitos de precisión, si fuese imposible entonces deber\'a imprimir $-1$.
+Para cada caso de prueba, el programa deber\'a imprimir el tiempo en el cual el taxi puede alcanzar al omnibus con 10 dígitos de precisión, si fuese imposible entonces deber\'a imprimir $-1$.
 
 \Example
 
@@ -25,8 +31,19 @@ Para cada caso de prueba, el programa deber\'a imprimir el tiempo en el cual el 
 5 3 11%%END-INPUT
 }{ %%OUTPUT
 -1
-5.5
+5.5000000000
 } %%END-OUTPUT
 \end{example}
 
+~\\ \\
+\textbf{\Large{\textsf{Observación}}}
+
+Para imprimir un número con 10 dígitos de precisión:
+\begin{itemize}[leftmargin=2cm]
+\item[\textbf{C}] \texttt{printf("\%.10f", valor);}
+\item[\textbf{C++}] \texttt{std::cout << std::set\_precission(10) << valor; }
+\item[\textbf{C\#}] \texttt{System.Console.WriteLine("\{0:F10\}", valor);}
+\item[\textbf{Python}] \texttt{print "\%.10f" \% valor}
+\item[\textbf{Java}] \texttt{System.out.printf("\%.10f", valor);}
+\end{itemize}
 \end{problem}

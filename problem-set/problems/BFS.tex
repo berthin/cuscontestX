@@ -35,7 +35,15 @@ Un \'arbol $ T = (V, E)$ está conformado por un conjunto de v\'ertices $V = \lb
 
 
 \InputFile
-El problema contiene varios casos de prueba. La primera l\'inea es un entero $T$ $(1\leq T \leq 10^2)$ que denota el número de casos de prueba. Cada caso está compuesto por dos l\'ineas, en la primera de ellas se encuentra el n\'umero entero $N$ indicando la cantidad de nodos que tend\'ra el grafo ($1 \leq N \leq 10^3$). Luego, en la segunda l\'inea del caso de prueba se encuentran $N-1$ pares de n\'umeros $p, q$ ($0 \leq p, q < n$, $p \neq q$) que representan las aristas del \'arbol en cuesti\'on. El nodo ra\'iz es determinado como aquel nodo que no tiene aristas entrantes, m\`as s\'i aristas salientes.
+
+La entrada del problema contiene varios casos de prueba. La primera línea es un entero $T$ $(1 \leq T \leq 100)$ indicando el número de casos de prueba. Para cada caso, se sigue el siguiente formato de entrada:
+
+\begin{itemize}
+\item La primera línea contiene un entero $N$ indicando la cantidad de nodos del árbol ($1 \leq N \leq 10^3$).
+
+\item La segunda línea contiene $N - 1$ pares de enteros $p, q$ representando las aristas del árbol ($0 \leq p, q < N, p\neq q$). Por claridad, un par de enteros $p, q$ expresa una arista del nodo $p$ hacia el nodo $q$.
+
+\end{itemize}
 
 \OutputFile
 Para cada caso de prueba, el programa deber\'a imprimir ``\texttt{Caso \#i:}'' (sin comillas) y a partir de la siguiente linea el árbol por niveles. Como pueden haber varios recorridos por niveles válidos para un mismo árbol, imprimir cualquier recorrido válido.
