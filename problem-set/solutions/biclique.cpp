@@ -51,19 +51,27 @@ int main(int argc, char const *argv[])
 		}
 		int s1_len;
 		in(s1_len);
-		int num;			
-		set<int> ans;
+		map<int,int> m;
+		int num;
 		f(i,0,s1_len){
 			in(num);
 			f(j,0,ady[num].size()){
-				ans.insert(ady[num][j]);
+				if(m.count(ady[num][j])>0) m[ady[num][j]]++;
+				else m[ady[num][j]]=1;
 			}
 		}
-		set<int>::iterator it;
-		FOR(it,ans){
-			if(it!=ans.begin())cout<<" ";
-			cout<<*it;
-		} 
+		map<int,int>::iterator it;
+		vint ans;
+		if(m.size()>0){
+			FOR(it,m){
+				if((int)it->second==s1_len)ans.pb((int)it->first);
+			}
+		}
+		sort(ans.begin(), ans.end());
+		f(i,0,ans.size()){
+			if(i!=0) cout<<" ";
+			cout<<ans[i];
+		}
 		cout<<endl;
 	}
 	return 0;
