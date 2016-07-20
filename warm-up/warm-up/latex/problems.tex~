@@ -1,0 +1,21 @@
+\documentclass[11pt,a4paper,oneside]{article}
+
+\usepackage[english]{babel}
+\usepackage{olymp}
+\usepackage{amsmath}
+\usepackage{bnf}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+
+\newcommand{\CUSCONTEST}{CusContest }
+
+\renewcommand{\contestname}{
+X CusContest (warm-up)\\
+Cusco, Julio 8, 2016
+}
+
+\begin{document}
+
+\input problems/Cuscontest.tex
+
+\end{document}

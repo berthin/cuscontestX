@@ -1,0 +1,38 @@
+\begin{problem}{Brigada de Ataque}{Standard input}{Standard output}{2 seconds}
+
+% Original idea        
+% Problem statement     
+% Testset               
+
+El general Fujimori esta planeando su ataque contra su enemigo mortal: el general Kuczynski.\\
+Despues de muchos meses de arduo trabajo de inteligencia Fujimori a descubierto que la mejor forma de romper la resistencia enemiga es poner soldados más fuertes al frente de las filas de manera que cada soldado tiene delante suyo a algun compañero que lo supera en fuerza,  mas formalmente $f_{i} > f_{j}$, $(1 \leq i < j \leq n)$ donde $f_{i}$ indica la fuerza del $i-esimo$ soldado y $n$ es el tamaño total del ejercito de Fujimori.\\
+Inicialmente los $n$ soldados del ejército forman una fila y debido a que el campo de batalla es accidentado, Fujimori solo podra enviar a un pequeño grupo que denominará ``Brigada de Ataque'', este grupo se formará a partir de la fila original extrayendo algunos soldados para formar una nueva fila, Fujimori recorre la fila de izquierda a derecha y cada vez que desea que un soldado entre en la ``Brigada de Ataque'' lo pone al final de la nueva fila.\\
+Fujimori desea aniquilar a Kuczynski por lo que esta nueva fila debe cumplir con la estructura óptima que fue descubierta por el equipo de inteigencia. Ademas Fujimori desea que el tamaño de la ``Brigada de Ataque'' sea máximo.\\
+Tú eres el jefe de inteligencia del general Kuczynski y has descubierto el plan de Fujimori, Kuczynski desea saber cuantos soldados enemigos lo atacarán y te encarga esta tarea.
+
+\InputFile
+La entrada empieza con un número $t$ $(1\leq t \leq 50)$, el número total de casos de prueba.\\
+Cada caso de prueba estará formado por dos lineas, la primera contiene $n$ $(1\leq n \leq 10^{4})$: el tamaño de todo el ejército de Fujimori.\\
+La segunda línea contiene $n$ enteros $f_{i}$ $(1 \leq f_{i} \leq 10^{9})$ , la fuerza de cada soldado de Fujimori, separados por espacios en blanco.
+
+\OutputFile
+Para cada caso de prueba se debe imprimir una única línea que contiene el tamaño de la ``Brigada de Ataque'' que debe esperar Kuczynski.
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+2
+7
+14 15 4 7 3 3 1
+5
+1 1 1 1 1%%END-INPUT
+}{ %%OUTPUT
+4
+1
+} %%END-OUTPUT
+\end{example}
+
+Para el primer caso la ``Brigada de Ataque'' podria estar formada por: 14 7 3 1 ó 15 7 3 1.\\
+Para el segundo caso la ``Brigada de Ataque'' solo puede estar formada por: 1.
+\end{problem}

@@ -1,0 +1,38 @@
+\providecommand{\abs}[1]{\lvert#1\rvert}
+\begin{problem}{Asignatura de Matemáticas}{Standard input}{Standard output}{1 second}
+
+% Original idea        
+% Problem statement     
+% Testset               
+
+El pequeño Albus estubo haciendo su tarea de matemáticas en la escuela y como es nuevo en esta asignatura practicó lo más básico: las operaciones aritméticas de suma, resta, multiplicación y división.\\
+Albus tiene cuatro pedazos largos de papel, para cada problema que resuelve hace los siguiente: En el primer pedazo de papel escribe el primer operando, en el segundo pedazo pone el operador (+, -, *, /), en el tercer pedazo pone el segundo operando y en el cuarto pedazo escribe el resultado de la operación.\\
+Lily, la hermana menor de Albus, estubo jugando y quemo el segundo pedazo de papel por accidente. Ella no sabe nada de matemáticas, solo sabe que estará en grandes problemas si su hermano se entera.\\
+James osea tú, el hermano mayor de Albus y Lily, debes ayudar a solucionar este problema. Tienes los dos operandos y la respuesta de cada operación, debes determinar el operando perdido.
+
+\InputFile
+La entrada estara dada por varios casos de prueba, cada caso de prueba se describirá en una línea formada por tres enteros $x, y, z$ $(0\leq \abs{x}, \abs{y} \leq 100, 0\leq \abs{z} \leq 10000)$. El último caso de prueba estará formado por tres ceros, este caso no debe ser procesado.
+
+\OutputFile
+Para cada caso se debe imprimir una línea que contenga ``+'' (sin comillas) para la suma, ``-'' (sin comillas) para la resta, ``*'' (sin comillas) para la multiplicación y ``/'' (sin comillas) para la división.\\
+Considere división entera e.g. $ 4 / 3 = 1 $. En caso de existir más de un operador válido imprima el de menor presedencia. Esto es: $ presedencia(-) < presedencia(+) < presedencia(*) < presedencia(/)$\\
+Se garantiza que siempre existirá al menos un operador válido para los operandos.
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+12 5 2
+2 2 4
+1 4 4
+4 8 -4
+0 0 0%%END-INPUT
+}{ %%OUTPUT
+/
++
+*
+-
+} %%END-OUTPUT
+\end{example}
+
+\end{problem}
