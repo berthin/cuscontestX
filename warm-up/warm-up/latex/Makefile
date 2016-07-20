@@ -1,5 +1,5 @@
 all:
-    pdflatex main.tex
+	pdflatex main.tex
 	pdflatex problems.tex
 	pdflatex problems.tex
 	pdfunite main.pdf problems.pdf warm-up.pdf
