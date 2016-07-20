@@ -1,0 +1,34 @@
+\begin{problem}{Devagar}{Standard input}{Standard output}{2 seconds}
+
+% Original idea        
+% Problem statement     
+% Testset               
+
+Otro semestre comienza y la tortura de tener un buen horario tambien.\\ Pero no para Devagar, él es un chico super tranquilo que no desea estresarse por lo que solo lleva un curso en el semestre, además a Devagar no le gustan los cursos que tienen más de un grupo, y si no hay ningun curso o hay más de un curso que tiene solo un grupo, él simplemente deja el semestre.\\
+Ayudalo a determinar el curso que llevará este semestre.
+
+\InputFile
+La entrada empieza con un número $t$ $(1\leq t \leq 50)$, el número total de casos de prueba.\\
+Cada caso de prueba estará formado por dos lineas, la primera contiene $n$ $(1\leq n \leq 10000)$: El número total de cursos disponibles.\\
+La segunda línea contiene $n$ enteros $a_{i}$ $(1 \leq a_{i} \leq n)$, el número que identifica a cada curso, separados por espacios en blanco. 
+
+\OutputFile
+Para cada caso de prueba debe imprimir una línea, si existe un curso que cumpla las espectativas de Devagar,imprima el número que identifica ese curso, caso contrario imprima ``Devagar'' (sin comillas).
+
+\Example
+
+\begin{example}
+\exmp{%%INPUT
+2
+5
+1 5 3 3 5
+8
+8 7 2 4 3 3 2 4%%END-INPUT
+}{ %%OUTPUT
+1
+Devagar
+} %%END-OUTPUT
+\end{example}
+En el primer caso el curso 3 tiene 2 grupos, el curso 5 tiene 2 grupos y el curso 1 tiene un solo grupo.\\
+En el segundo caso los cursos 7 y 8 tienen un solo grupo, por lo que Divagar deja el semestre.
+\end{problem}

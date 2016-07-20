@@ -1,0 +1,10 @@
+all:
+	pdflatex eqm
+	bibtex eqm
+	pdflatex eqm
+
+clean: 
+	rm -f *.aux *.bbl *.log *.blg *.dvi *.toc
+
+cleanall: clean
+	rm -f eqm.pdf
